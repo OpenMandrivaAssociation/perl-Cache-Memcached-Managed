@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Inactive Cache::Memcache::Managed object
 License:    GPL+ or Artistic
@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/Cache/%{upstream_name}-%{upstr
 
 BuildRequires: perl(Cache::Memcached)
 BuildRequires: perl(Scalar::Util)
+BuildRequires: memcached
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
