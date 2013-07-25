@@ -1,15 +1,15 @@
 %define upstream_name    Cache-Memcached-Managed
-%define upstream_version 0.20
+%define upstream_version 0.24
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%perl_convert_version 0.24
+Release:	1
 
 Summary:	Inactive Cache::Memcache::Managed object
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Cache/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Cache/Cache-Memcached-Managed-0.24.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Cache::Memcached)
@@ -49,4 +49,5 @@ make test
 + Revision: 624986
 - Add a memcached as a build requires
 - import perl-Cache-Memcached-Managed
+
 

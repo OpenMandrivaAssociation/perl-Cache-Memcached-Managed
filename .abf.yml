@@ -1,2 +1,4 @@
+removed_sources:
+  Cache-Memcached-Managed-0.20.tar.gz: 57806f15aa384a7efa42530942cefe2b24656390
 sources:
-  "Cache-Memcached-Managed-0.20.tar.gz": 57806f15aa384a7efa42530942cefe2b24656390
+  Cache-Memcached-Managed-0.24.tar.gz: ffa89e210ffcfce6c73ac94a371e92a5d031eac9
