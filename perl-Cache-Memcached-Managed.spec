@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.24
-Release:	1
+Release:	2
 
 Summary:	Inactive Cache::Memcache::Managed object
 License:	GPL+ or Artistic
