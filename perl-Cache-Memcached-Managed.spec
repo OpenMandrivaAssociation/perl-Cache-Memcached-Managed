@@ -1,14 +1,12 @@
 %define upstream_name    Cache-Memcached-Managed
-%define upstream_version 0.24
-
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.24
-Release:	3
+Version:	0.24
+Release:	4
 
 Summary:	Inactive Cache::Memcache::Managed object
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
+Url:		https://metacpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Cache/Cache-Memcached-Managed-0.24.tar.gz
 
 BuildRequires:	make
@@ -24,7 +22,7 @@ all methods called to all of the objects specified, except for the new
 manpage and the objects manpage.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
